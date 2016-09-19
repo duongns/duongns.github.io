@@ -1,0 +1,265 @@
+*, 
+*:after, 
+*:before {
+	box-sizing: border-box;    
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before, 
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	max-width: 100%;
+	height: auto;
+}
+body {
+	-webkit-text-size-adjust: 100%;
+	background: #2d2d2d;
+	background: -moz-linear-gradient(left,  #2d2d2d 0%, #2d2d2d 40%, #ffffff 40%, #ffffff 100%);
+	background: -webkit-linear-gradient(left,  #2d2d2d 0%,#2d2d2d 40%,#ffffff 40%,#ffffff 100%);
+	background: linear-gradient(to right,  #2d2d2d 0%,#2d2d2d 40%,#ffffff 40%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#ffffff',GradientType=1 );
+	color: #151515;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.container {
+	width: 96%;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.grid {
+	font-size: 0;
+	text-align: justify;
+}
+.grid:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.grid-item {
+	display: inline-block;
+	text-align: left;
+}
+
+.sidebar {
+	background-color: #2d2d2d;
+	color: #fff;
+	width: 30%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.side-block {
+	margin: 40px 0 40px 40px;
+}
+.side-block h2 {
+	border-bottom: 1px solid #fff;
+	font-size: 17px;
+	letter-spacing: 3px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.avatar {
+	background-color: #fff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+}
+.sb-list li {
+	display: block;
+	margin: 15px 0;
+}
+.sb-list li i {
+    display: block;
+    font-size: 20px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 2px;
+    width: 20px;
+    text-align: center;
+}
+.sb-list li h4 {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.sb-list li p {
+    color: #f5f5f5;
+    font-style: italic;
+    margin-left: 35px;
+}
+.sb-list li p a {
+    color: #f5f5f5;
+}
+.main-content {
+	background-color: #fff;
+	margin-left: 30%;
+	min-height: 100vh;
+	padding: 40px;
+}
+header {
+	letter-spacing: 3px;
+	padding: 30px 0;
+	text-transform: uppercase;
+}
+header h1 {
+	font-size: 60px;
+}
+header p {
+	font-size: 20px;
+}
+.main-block {
+	margin: 40px 0;
+	padding-left: 50px;
+}
+.main-block h2 {
+	border-bottom: 1px solid #151515;
+	font-size: 17px;
+	letter-spacing: 3px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	position: relative;
+	text-transform: uppercase;
+}
+.main-block h2 i {
+    border: 1px solid #151515;
+    border-radius: 50%;
+    display: inline-block;
+    width: 35px;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-right: 15px;
+    position: absolute;
+    left: -50px;
+    top: -5px;
+}
+.timeline li {
+	display: block;
+	position: relative;
+	padding-bottom: 15px;
+}
+.timeline li:before {
+    content: "";
+    background-color: #151515;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: -32px;
+    top: -20px;
+    z-index: 0;
+}
+.timeline time {
+    position: relative;
+    width: 100px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+.timeline time i {
+	background-color: #fff;
+    position: absolute;
+    left: -37px;
+    top: 3px;
+}
+.timeline h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.timeline h4 {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    font-weight: normal;
+    margin-left: 115px;
+}
+.timeline p {
+    margin: 5px 0 0 115px;
+}
+.skills {
+	width: 48%;
+}
+.skills li {
+	margin-bottom: 20px;
+}
+.skills li label {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+.skills li .metter {
+    background-color: #ccc;
+    width: 50%;
+    height: 10px;
+    margin-top: 6px;
+    position: relative;
+    float: right;
+}
+.skills li .metter span {
+	background-color: #333;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (min-width: 600px) {
+	
+}
+@media screen and (min-width: 900px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 1500px) {
+
+}
+@media screen and (min-width: 1800px) {
+
+}
+@media screen and (min-width: 2100px) {
+
+}
